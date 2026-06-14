@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="wrapper.css">
+  <link rel="stylesheet" href="components.css">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="nullstyle.css">
+  <title>GitHub finger</title>
+</head>
+
+
+
+<body>
+  <div class="wrapper">
+    <header>
+      <div class="container">
+        <div class="header_body">
+          <div class="header__logo">
+            <h2 class="title">GitHub User Finder</h2>
+            <button id="change-theme" class="button"></button>
+          </div>
+          <div class="header__search">
+            <input placeholder="*username" id="inputSearch" type="text">
+            <button id="search" class="button">Search</button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <h2 class="text">last search: <button id="clear-storage" class="button">Clear</button></h2>
+        <div class="main_head">
+          <ul id="body-lastSearch">
+
+          </ul>
+        </div>
+        <div class="main_body">
+          <h2 class="text">Result: <span id="result"></span></h2>
+          <div class="hidden" id="loading">
+            <h2 class="title">Loading...</h2>
+          </div>
+          <div id="user-body">
+
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
