@@ -5,7 +5,6 @@ GitHub User Finder — это веб-приложение для поиска п
 Проект позволяет находить GitHub аккаунты по username и просматривать основную информацию о пользователе через простой и удобный интерфейс.
 
 ## Возможности
-
 Поиск пользователей GitHub по username
 Просмотр профиля пользователя
 Отображение аватара, bio, followers, following и public repositories
@@ -25,7 +24,6 @@ GitHub REST API
 LocalStorage
 
 ## Демо
-
 https://ivan-lyakh.github.io/GitHub-User-Finder/
 
 # GitHub User Finder
@@ -35,7 +33,6 @@ GitHub User Finder is a web application for searching GitHub users.
 The project allows users to find GitHub accounts by username and view profile information through a simple and intuitive interface.
 
 ## Features
-
 Search GitHub users by username
 View user profile information
 Display avatar, bio, followers, following, and public repositories
