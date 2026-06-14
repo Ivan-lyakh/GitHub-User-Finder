@@ -25,7 +25,7 @@ LocalStorage
 
 ## Демо
 
-Добавишь ссылку после deploy.
+https://ivan-lyakh.github.io/GitHub-User-Finder/
 
 # GitHub User Finder
 
@@ -53,4 +53,4 @@ GitHub REST API
 LocalStorage
 ## Live Demo
 
-Add deploy link after publishing.
+https://ivan-lyakh.github.io/GitHub-User-Finder/
