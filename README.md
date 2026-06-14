@@ -25,9 +25,7 @@ LocalStorage
 
 ## Демо
 
-(добавишь ссылку после deploy)
-
---------------------------------------------------------------------------------------------------------------------------------------
+Добавишь ссылку после deploy.
 
 # GitHub User Finder
 
@@ -45,7 +43,7 @@ Input validation
 Loading state while fetching data
 Error handling (User not found)
 Light / Dark theme toggle
-Theme persistence with LocalStorage
+Theme persistence using localStorage
 Responsive design
 Tech Stack
 HTML5
@@ -53,7 +51,6 @@ CSS3
 Vanilla JavaScript
 GitHub REST API
 LocalStorage
-
 ## Live Demo
 
-(add deploy link)
+Add deploy link after publishing.
