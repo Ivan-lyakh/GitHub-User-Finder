@@ -15,7 +15,7 @@ buttonChangeTheme.addEventListener("click", () => {
 
   if (theme === null) {
     theme = true
-    localStorage.setItem("theme", theme)
+    localStorage.setItem("themeGitFinger", theme)
     buttonChangeTheme.textContent = "ligth mode"
     return
   }
@@ -23,7 +23,7 @@ buttonChangeTheme.addEventListener("click", () => {
   if (theme) {
     theme = false
     buttonChangeTheme.textContent = "dark mode"
-    localStorage.setItem("theme", theme)
+    localStorage.setItem("themeGitFinger", theme)
     console.log(`true : ${localStorage.getItem("theme")}`)
     lightTheme()
     return
@@ -32,7 +32,7 @@ buttonChangeTheme.addEventListener("click", () => {
   if (!theme) {
     theme = true
     buttonChangeTheme.textContent = "light mode"
-    localStorage.setItem("theme", theme)
+    localStorage.setItem("themeGitFinger", theme)
     console.log(`false : ${localStorage.getItem("theme")}`)
     darkTheme()
     return
@@ -103,7 +103,7 @@ buttonSearh.addEventListener("click", () => {
 
 /*----------------changeThemeLogic---------------*/
 
-let theme = JSON.parse(localStorage.getItem("theme"))
+let theme = JSON.parse(localStorage.getItem("themeGitFinger"))
 
 theme === null && lightTheme()
 theme === false && lightTheme()
