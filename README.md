@@ -1,6 +1,6 @@
-## GitHubUserFinger:
 
-# GitHub User Finder
+
+## GitHub User Finder
 
 GitHub User Finder — это веб-приложение для поиска пользователей GitHub.
 
